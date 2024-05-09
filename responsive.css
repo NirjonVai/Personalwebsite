@@ -1,0 +1,189 @@
+@media (max-width: 1335px) {
+
+    .navigationMenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        left: -500px;
+        width: 70%;
+        height: 100vh;
+        background: #fff;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+        padding: 2rem 2rem 0 8rem;
+        transition: all 0.5s ease-in-out;
+        z-index: 1000;
+        overflow: scroll;
+    }
+
+    .navigationMenu.openSideBar{
+        left: 0;
+    }
+
+    .navigationMenu li a{
+        margin: 0.3rem 0;
+    }
+
+    .user{
+        display: initial;
+    }
+
+    .closeSideBar{
+        display: initial;
+    }
+
+    .bar{
+        display: initial;
+    }
+    
+}
+
+/* tablet View */
+@media (max-width: 770px) {
+
+    header {
+        padding: 1rem 2rem;
+    }
+
+    .mainSection {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .mainContents {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainText {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .mainImage {
+        width: 100%;
+    }
+    
+}
+/* tablet View */
+
+/* iphone se view */
+@media (max-width: 377px) {
+
+    body{
+        background: #fff;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    .name {
+        font-size: 3.5rem;
+    }
+
+    .profileForm form {
+        width: 365px;
+    }
+
+    .navigationMenu {
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    .conditions {
+        font-size: 1rem;
+    }
+
+    .profileImage {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+/* iphone se view end */
+
+/* iPhone 12pro view */
+@media (max-width: 395px) {
+
+    body{
+        background: #fff;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    .name {
+        font-size: 3.5rem;
+    }
+
+    .profileForm form {
+        width: 365px;
+    }
+
+    .navigationMenu {
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    .conditions {
+        font-size: 1rem;
+    }
+
+    .profileImage {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+/* iPhone 12pro view end */
+
+/* 14pro max view */
+@media (max-width: 435px) {
+
+    body{
+        background: #fff;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    .name {
+        font-size: 3.5rem;
+    }
+
+    .profileForm form {
+        width: 365px;
+    }
+
+    .navigationMenu {
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    .conditions {
+        font-size: 1rem;
+    }
+
+    .profileImage {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+/* 14pro max view */
+
+/* Galaxy s8 */
+@media (max-width: 360px) {
+
+    body{
+        background: #fff;
+    }
+
+    .imageUpload {
+        padding: 1rem;
+    }
+    
+}
+/* Galaxy s8 */
